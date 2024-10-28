@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: B Carousel Block 1.0.8\n"
+"Project-Id-Version: B Carousel Block 1.0.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/b-carousel-block-pro\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-06-08T12:29:55+00:00\n"
+"POT-Creation-Date: 2024-10-28T09:25:56+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: carousel-block\n"
@@ -30,712 +30,74 @@ msgstr ""
 msgid "https://bplugins.com"
 msgstr ""
 
-#: inc/CustomPost.php:27
-#: inc/CustomPost.php:28
-#: inc/pattern.php:15
+#: includes/CustomPost.php:27
+#: includes/CustomPost.php:28
+#: includes/pattern.php:15
 msgid "B Carousel"
 msgstr ""
 
-#: inc/CustomPost.php:29
-#: inc/CustomPost.php:30
+#: includes/CustomPost.php:29
+#: includes/CustomPost.php:30
 msgid "Add New"
 msgstr ""
 
-#: inc/CustomPost.php:31
+#: includes/CustomPost.php:31
 msgid "Edit"
 msgstr ""
 
-#: inc/CustomPost.php:32
+#: includes/CustomPost.php:32
 msgid "New"
 msgstr ""
 
-#: inc/CustomPost.php:33
+#: includes/CustomPost.php:33
 msgid "View"
 msgstr ""
 
-#: inc/CustomPost.php:34
+#: includes/CustomPost.php:34
 msgid "Search"
 msgstr ""
 
-#: inc/CustomPost.php:35
+#: includes/CustomPost.php:35
 msgid "Sorry, we couldn't find the that you are looking for."
 msgstr ""
 
-#: inc/HelpPage.php:11
+#: includes/HelpPage.php:11
 msgid "Content Slider - Help"
 msgstr ""
 
-#: inc/HelpPage.php:12
+#: includes/HelpPage.php:12
 msgid "Help"
 msgstr ""
 
-#: inc/UpgradePage.php:11
+#: includes/UpgradePage.php:11
 msgid "Content Slider - Upgrade"
 msgstr ""
 
-#: inc/UpgradePage.php:12
+#: includes/UpgradePage.php:12
 msgid "Upgrade"
 msgstr ""
 
-#: dist/admin-post.js:1
-#: dist/editor.js:1
-#: dist/admin-post.js:9
-#: dist/editor.js:11742
-msgid "Copied Successfully!"
-msgstr ""
-
-#: dist/admin-post.js:1
-#: dist/editor.js:1
-#: dist/admin-post.js:11
-#: dist/editor.js:11744
-#: dist/editor.js:11754
-msgid "Copy To Clipboard"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11642
-#: dist/editor.js:11666
-msgid "None"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11643
-msgid "Link"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11644
-msgid "Lightbox"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11648
-msgid "Auto"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11649
-msgid "Full"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11652
-#: dist/editor.js:11828
-msgid "Image"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11653
-#: dist/editor.js:11834
-#: dist/editor.js:12030
-msgid "Caption"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11657
-msgid "Slide"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11658
-msgid "Fade"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11659
-msgid "Cube"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11660
-msgid "Creative"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11661
-msgid "Coverflow"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11662
-msgid "Flip"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11663
-msgid "Cards"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11667
-msgid "Normal"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11668
-msgid "Hover"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11671
-msgid "On Image"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11672
-msgid "Bellow Image"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11675
-msgid "Top"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11676
-msgid "Center"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11677
-msgid "Bottom"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11686
-msgid "General"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11687
-msgid "Options"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11688
-msgid "Style"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11717
-msgid "Image File:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11718
-msgid "Enter Image URL"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11720
-msgid "Caption:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11722
-msgid "Click Action"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11724
-msgid "Link:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11749
-msgid "Copy the shortcode and use it anywhere."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11794
-msgid "Carousel Items"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11804
-msgid "Layout"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11806
-msgid "Width:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11812
-msgid "Height:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11818
-msgid "Columns:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11823
-msgid "Column Gap:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11829
-msgid "Width"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11835
-msgid "Display"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11836
-msgid "Hover view will work only if the caption position is on the image."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11838
-msgid "Position"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11841
-msgid "Vertical Align"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11845
-msgid "Text Align:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11851
-msgid "Slide Link"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11852
-msgid "Open link in new tab?"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11854
-msgid "Link On"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11886
-msgid "Basic"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11887
-msgid "Enable Loop"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11888
-msgid "Total number of slides must be more then column count"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11890
-msgid "Enable Touch Move"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11892
-msgid "Speed (s):"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11894
-msgid "Smaller speed will be slide faster"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11898
-msgid "Autoplay"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11899
-msgid "Enable Autoplay"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11900
-msgid "Autoplay will not work in backend"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11903
-msgid "Autoplay Delay (s):"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11905
-msgid "Smaller delay will be autoplay faster"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11907
-msgid "Disable on Interaction"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11909
-msgid "Pause on Mouse Enter"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11910
-msgid "If 'Disable on Interaction' is also enabled, it will stop autoplay instead of pause"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11912
-msgid "Reverse Direction"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11914
-msgid "Stop on Last Slide"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11919
-msgid "Free Mode"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11920
-msgid "Enable Free Mode"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11921
-msgid "Smooth Scrolling with dragging the slide"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11923
-msgid "Enable Touch Move to use Free Mode"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11925
-msgid "Sticky"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11929
-msgid "Effects"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11931
-msgid "Effect:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11953
-msgid "To work fade, cube, creative, flip & cards effects properly, set single column per view."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11955
-msgid "Some settings may change when effect will be changed."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11959
-msgid "Mousewheel"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11960
-msgid "Enable Slide on Mousewheel"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11964
-#: dist/editor.js:12016
-msgid "Pagination"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11965
-msgid "Show Pagination"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11968
-#: dist/editor.js:11985
-msgid "Show On Tablet"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11970
-#: dist/editor.js:11987
-msgid "Show On Mobile"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11972
-msgid "Enable Pagination Clickable"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11974
-msgid "Enable Pagination Dynamic Bullets"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11976
-msgid "Pagination Border:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11981
-#: dist/editor.js:12023
-msgid "Navigation"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:11982
-msgid "Show Navigation"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12009
-msgid "Carousel"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12010
-msgid "Background:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12012
-msgid "Padding:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12017
-msgid "Button Size:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12019
-msgid "Button Color:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12024
-msgid "Icon Size:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12026
-msgid "Icon Color:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12034
-msgid "Overlay:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12035
-msgid "Overlay will show only if the caption position is on the image."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12102
-msgid "Carousel in left"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12103
-msgid "Carousel in center"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12104
-msgid "Carousel in right"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12110
-msgid "Image in Lightbox: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12110
-msgid "Open the slide image in the lightbox."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12112
-msgid "Link on Caption: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12112
-msgid "Set the slide link on the caption."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12114
-msgid "Touch Move: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12114
-msgid "Control the slider with touch move."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12116
-msgid "Disable on Interaction: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12116
-msgid "Disable on Interaction option in autoplay."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12118
-msgid "Pause on Mouse Enter: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12118
-msgid "Pause on Mouse Enter option in autoplay."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12120
-msgid "Reverse Direction: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12120
-msgid "Reverse Direction option in autoplay."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12122
-msgid "Stop on Last Slide: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12122
-msgid "Stop on Last Slide option in autoplay."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12124
-msgid "Free Mode: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12124
-msgid "Free Mode option on drag slide."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12126
-msgid "Sticky: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12126
-msgid "Sticky option in free mode."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12128
-msgid "Effects: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12128
-msgid "Explore more effects such as Cube, Coverflow, Flip, and Cards."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12130
-msgid "Slide on Mousewheel: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12130
-msgid "Slide on Mousewheel option."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12132
-msgid "Pagination Device: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12132
-msgid "Show/Hide pagination in different devices(tablet and mobile)."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12134
-msgid "Dynamic Bullets: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12134
-msgid "Option for pagination dynamic bullets."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12136
-msgid "Navigation Device: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12136
-msgid "Show/Hide navigation in different devices(tablet and mobile)."
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12138
-msgid "Caption: "
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:12138
-msgid "Show Caption on hover, Set position outside of the image, Change vertical align."
-msgstr ""
-
-#: inc/block.json
+#: build/block.json
 msgctxt "block title"
 msgid "Carousel"
 msgstr ""
 
-#: inc/block.json
+#: build/block.json
 msgctxt "block description"
 msgid " Create stunning responsive carousels effortlessly."
 msgstr ""
 
-#: inc/block.json
+#: build/block.json
 msgctxt "block keyword"
 msgid "image slider"
 msgstr ""
 
-#: inc/block.json
+#: build/block.json
 msgctxt "block keyword"
 msgid "logo carousel"
 msgstr ""
 
-#: inc/block.json
+#: build/block.json
 msgctxt "block keyword"
 msgid "client logo slider"
 msgstr ""

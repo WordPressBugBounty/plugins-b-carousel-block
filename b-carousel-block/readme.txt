@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, image slider, logo carousel, client logo slider, Gutenberg block
 Requires at least: 6.2+
 Tested up to: 6.6.2
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -142,37 +142,8 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
-= 1.0.8 - 8 Jun 24 =
-* Add a width option for the image.
-
-= 1.0.7 - 25 Apr 24 =
-* Fix the link not clicking
-
-= 1.0.6 - 8 Apr 24 =
-* Add patterns
-* Update FS SDK
-
-= 1.0.5 - 6 Apr 24 =
-* Fix below image caption text-align
-
-= 1.0.4 - 2 Apr 24 =
-* Add caption feature
-
-= 1.0.3 =
-* Update library
-* Implement autoplay delay feature
-
-= 1.0.2 =
-* Add height option
-
-= 1.0.1 =
-* Add translate feature
-
-= 1.0.0 =
-* Initial Release
-
-
-== Upgrade Notice ==
+= 1.0.9 - 28 Oct 24 =
+* Update SDK
 
 = 1.0.8 - 8 Jun 24 =
 * Add a width option for the image.
