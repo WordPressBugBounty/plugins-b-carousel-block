@@ -22,8 +22,8 @@ class BICBHelpPage{
 
 	function adminEnqueueScripts( $hook ) {
 		if( strpos( $hook, 'bicb-help' ) ){
-			wp_enqueue_style( 'bicb-admin-help', BICB_DIR_URL . 'dist/admin-help.css', [], BICB_VERSION );
-			wp_enqueue_script( 'bicb-admin-help', BICB_DIR_URL . 'dist/admin-help.js', [ 'react', 'react-dom' ], BICB_VERSION, true );
+			wp_enqueue_style( 'bicb-admin-help', BICB_DIR_URL . 'build/admin-help.css', [], BICB_VERSION );
+			wp_enqueue_script( 'bicb-admin-help', BICB_DIR_URL . 'build/admin-help.js', [ 'react', 'react-dom' ], BICB_VERSION, true );
 			wp_set_script_translations( 'bicb-admin-help', 'carousel-block', BICB_DIR_PATH . 'languages' );
 		}
 	}

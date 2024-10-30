@@ -13,8 +13,8 @@ class BICBCustomPost{
 
 	function adminEnqueueScripts( $hook ){
 		if( 'edit.php' === $hook || 'post.php' === $hook ){
-			wp_enqueue_style( 'bicb-admin-post', BICB_DIR_URL . 'dist/admin-post.css', [], BICB_VERSION );
-			wp_enqueue_script( 'bicb-admin-post', BICB_DIR_URL . 'dist/admin-post.js', [], BICB_VERSION, true );
+			wp_enqueue_style( 'bicb-admin-post', BICB_DIR_URL . 'build/admin-post.css', [], BICB_VERSION );
+			wp_enqueue_script( 'bicb-admin-post', BICB_DIR_URL . 'build/admin-post.js', [], BICB_VERSION, true );
 			wp_set_script_translations( 'bicb-admin-post', 'carousel-block', BICB_DIR_PATH . 'languages' );
 		}
 	}

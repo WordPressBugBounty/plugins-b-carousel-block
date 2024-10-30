@@ -22,7 +22,7 @@ class BICBUpgradePage{
 
 	function adminEnqueueScripts( $hook ) {
 		if( strpos( $hook, 'bicb-upgrade' ) ){
-			wp_enqueue_script( 'bicb-admin-upgrade', BICB_DIR_URL . 'dist/admin-upgrade.js', [ 'react', 'react-dom' ], BICB_VERSION, true );
+			wp_enqueue_script( 'bicb-admin-upgrade', BICB_DIR_URL . 'build/admin-upgrade.js', [ 'react', 'react-dom' ], BICB_VERSION, true );
 			wp_set_script_translations( 'bicb-admin-upgrade', 'carousel-block', BICB_DIR_PATH . 'languages' );
 		}
 	}
