@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, image slider, logo carousel, client logo slider, Gutenberg block
 Requires at least: 6.2+
 Tested up to: 6.6.2
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -141,6 +141,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.1.1 - 3 Nov 24 =
+* Fix ShortCode Issue
 
 = 1.1.0 - 29 Oct 24 =
 * Fix Admin Menu
