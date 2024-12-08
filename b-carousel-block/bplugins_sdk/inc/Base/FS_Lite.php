@@ -32,6 +32,10 @@ class FS_Lite{
             require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
         }
 
+        add_action('init', [$this, 'init']);
+    }
+
+    function init(){
         $plugin_data = \get_plugin_data( $this->__FILE__ );
         $this->plugin_name = $plugin_data['Name'];
 
