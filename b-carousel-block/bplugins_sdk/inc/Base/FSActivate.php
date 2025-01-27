@@ -45,6 +45,15 @@ class FSActivate extends FS_LITE{
         add_action( 'admin_notices', [$this, 'fs_admin_notice'] );
 
         register_deactivation_hook($this->__FILE__, [&$this, '_deactivate_plugin_hook']);
+
+        add_action('admin_init', [$this, 'admin_init']);
+    }
+
+    function admin_init(){
+        $is_skip_activation = sanitize_text_field($_GET['is_skip_activation'] ?? '0') == '1';
+        if($is_skip_activation){
+            wp_redirect(admin_url($this->config->menu['first-path']));
+        }
     }
 
     function fs_admin_notice(){
@@ -54,7 +63,7 @@ class FSActivate extends FS_LITE{
     }
 
     function fs_notice_dismiss(){
-        if(!wp_verify_nonce( $_POST['nonce'], "wp_ajax")){
+        if(!wp_verify_nonce( sanitize_text_field(wp_unslash($_POST['nonce'] ?? '')), "wp_ajax")){
             wp_send_json_error();
         }
         $fs_accounts = $this->get_fs_accounts();
@@ -64,7 +73,7 @@ class FSActivate extends FS_LITE{
     }
 
     function fs_init(){
-        if(!wp_verify_nonce( $_POST['nonce'], "wp_ajax")){
+        if(!wp_verify_nonce( sanitize_text_field(wp_unslash($_POST['nonce'] ?? '')), "wp_ajax")){
             wp_send_json_error();
         }
        try {
@@ -73,16 +82,14 @@ class FSActivate extends FS_LITE{
             $fs_accounts = $this->get_fs_accounts();
             if(isset($info['is_skip_activation']) && $info['is_skip_activation']){
                 $site = $this->get_data();
-                if( $site ){
-                    $secret_key = (boolean) $site->secret_key;
-                    $public_key = (boolean) $site->public_key;
-                    if( $secret_key && $public_key ){
-                        if(isset($fs_accounts['plugin_data'][$this->config->slug]['is_anonymous'])){
-                            unset($fs_accounts['plugin_data'][$this->config->slug]['is_anonymous']);
-                        }
-                    }else {
-                        $fs_accounts['plugin_data'][$this->config->slug]['is_anonymous'] = ['is' => true];
+                $secret_key = (boolean) $site->secret_key;
+                $public_key = (boolean) $site->public_key;
+                if($secret_key && $public_key){
+                    if(isset($fs_accounts['plugin_data'][$this->config->slug]['is_anonymous'])){
+                        unset($fs_accounts['plugin_data'][$this->config->slug]['is_anonymous']);
                     }
+                }else {
+                    $fs_accounts['plugin_data'][$this->config->slug]['is_anonymous'] = ['is' => true];
                 }
             }else {
                 if(isset($info['user_id']) && $info['user_id']) {
@@ -102,8 +109,7 @@ class FSActivate extends FS_LITE{
                 }
             }
             update_option('fs_accounts', $fs_accounts);
-            wp_send_json_success($fs_accounts);
-
+            wp_send_json_success(wp_parse_args(['config' => $this->config, 'admin_url' => admin_url()],$fs_accounts));
 
        } catch (\Throwable $th) {
             wp_send_json_error($th->getMessage());
@@ -185,7 +191,7 @@ class FSActivate extends FS_LITE{
     }
 
     function fetch_info(){
-        $nonce = $_POST['nonce'];
+        $nonce = wp_unslash(sanitize_text_field($_POST['nonce']));
         if(!wp_verify_nonce($nonce, "wp_ajax")){
             wp_send_json_error();
         }
@@ -205,7 +211,7 @@ class FSActivate extends FS_LITE{
             }
         }
         
-        wp_send_json_success(wp_parse_args( wp_parse_args($this->extend_config(), ['result' => $result]), (array) $this->config ));
+        wp_send_json_success(wp_parse_args( wp_parse_args($this->extend_config(), []), (array) $this->config ));
     }
 
    function extend_config(){
@@ -248,7 +254,7 @@ class FSActivate extends FS_LITE{
             'user_first_name'=> $user->user_firstname,
             'user_last_name'=> $user->user_lastname,
             'plugin_name' => $this->plugin_name,
-            'plugin_data' => $plugin_data,
+            'data' => $plugin_data, // current plugin data (in freemus sdk, here all the plugins data)
             'site' => $site
         ];
     }
@@ -283,7 +289,7 @@ class FSActivate extends FS_LITE{
    function admin_head(){
         $redirect = get_option("$this->prefix-redirect", false);
         if (!$redirect && !strpos($_SERVER['REQUEST_URI'], 'post.php') && !strpos($_SERVER['REQUEST_URI'], 'post-new.php')) {
-            update_option("$this->prefix-redirect", true); ?><script>window.location.href = '<?php echo "admin.php?page=" . dirname($this->base_name) ?>'</script><?php
+            update_option("$this->prefix-redirect", true); ?><script>window.location.href = '<?php echo esc_attr("admin.php?page=" . dirname($this->base_name)) ?>'</script><?php
         }
     }
 
@@ -318,10 +324,10 @@ class FSActivate extends FS_LITE{
         wp_register_script("bsdk-opt-in", plugin_dir_url(plugin_dir_path( __DIR__ )).'dist/opt-in-form.js', ['react', 'react-dom', 'wp-util'], $this->version);
         wp_register_style("bsdk-opt-in", plugin_dir_url(plugin_dir_path( __DIR__ )).'dist/opt-in-form.css', [], $this->version);
 
-        if($hook === 'plugins.php' || $hook === "admin_page_".dirname($this->base_name)){
-            wp_enqueue_script("bsdk-opt-in");
-            wp_enqueue_style("bsdk-opt-in");
-        }
+        wp_enqueue_script("bsdk-opt-in");
+        wp_enqueue_style("bsdk-opt-in");
+        // if($hook === 'plugins.php' || $hook === "admin_page_".dirname($this->base_name)){
+        // }
     }
 
    function initialize_fs_accounts(){
