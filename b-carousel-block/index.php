@@ -3,7 +3,7 @@
 /**
  * Plugin Name: B Carousel Block
  * Description: Create stunning responsive carousels effortlessly.
- * Version: 1.1.4
+ * Version: 1.1.5
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -24,7 +24,7 @@ if ( function_exists( 'bicb_fs' ) ) {
         }
     } );
 } else {
-    define( 'BICB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.1.4' ) );
+    define( 'BICB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.1.5' ) );
     define( 'BICB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'BICB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'BICB_HAS_FREE', 'b-carousel-block/index.php' === plugin_basename( __FILE__ ) );

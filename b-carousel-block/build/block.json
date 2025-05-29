@@ -21,35 +21,57 @@
         {
           "image": {
             "id": null,
-            "url": "https://i.imgur.com/Rzt48K3.jpeg",
-            "alt": "Green Grass Field",
+            "url": "https://placehold.co/809x500/f96c96/fff/svg",
+            "alt": "LightCrimson",
             "title": ""
           },
           "action": "none",
           "link": "",
-          "caption": "Green Grass Field"
+          "caption": "LightCrimson"
         },
         {
           "image": {
             "id": null,
-            "url": "https://i.imgur.com/osdXVcc.jpeg",
-            "alt": "Wheat Plants",
+            "url": "https://placehold.co/809x500/20b759/fff/svg",
+            "alt": "Green (Crayola)",
             "title": ""
           },
           "action": "none",
           "link": "",
-          "caption": "Wheat Plants"
+          "caption": "Green (Crayola)"
         },
         {
           "image": {
             "id": null,
-            "url": "https://i.imgur.com/bpJqk36.jpeg",
-            "alt": "White Daisy On Grass",
+            "url": "https://placehold.co/809x500/0c8af0/fff/svg",
+            "alt": "Azure",
             "title": ""
           },
           "action": "none",
           "link": "",
-          "caption": "White Daisy On Grass"
+          "caption": "Azure"
+        },
+        {
+          "image": {
+            "id": null,
+            "url": "https://placehold.co/809x500/f29830/fff/svg",
+            "alt": "Deep Saffron",
+            "title": ""
+          },
+          "action": "none",
+          "link": "",
+          "caption": "Deep Saffron"
+        },
+        {
+          "image": {
+            "id": null,
+            "url": "https://placehold.co/809x500/9791fb/fff/svg",
+            "alt": "Maximum Blue Purple",
+            "title": ""
+          },
+          "action": "none",
+          "link": "",
+          "caption": "Maximum Blue Purple"
         }
       ]
     },
@@ -64,9 +86,9 @@
     "height": {
       "type": "object",
       "default": {
-        "desktop": "350px",
-        "tablet": "300px",
-        "mobile": "250px"
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
       }
     },
     "elements": {
@@ -130,7 +152,7 @@
     "padding": {
       "type": "object",
       "default": {
-        "vertical": "10px",
+        "vertical": "30px",
         "horizontal": "10px"
       }
     },
@@ -156,7 +178,7 @@
     },
     "prevNextColor": {
       "type": "string",
-      "default": "#4527a4"
+      "default": "#fff"
     },
     "image": {
       "type": "object",
