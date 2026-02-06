@@ -1,22 +1,22 @@
-=== B Carousel Block - Create stunning responsive carousels effortlessly ===
+=== Carousel Block – Responsive Image and Content Carousel ===
 Contributors: bplugins, abuhayat, charlescormier, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, image slider, logo carousel, client logo slider, Gutenberg block
 Requires at least: 6.5+
-Tested up to: 6.8.1
-Stable tag: 1.1.5
+Tested up to: 6.9
+Stable tag: 1.2.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Create stunning carousels effortlessly with the B Carousel Block. Showcase your images in an elegant carousel directly within the Gutenberg editor.
+Create stunning carousels effortlessly with the Carousel Block. Showcase your images in an elegant carousel directly within the Gutenberg editor.
 
 == Description ==
 
-👉 [Plugin Demo](https://bplugins.com/products/b-carousel-block/#demos) | [Documentation](https://bplugins.com/docs/b-carousel-block/) | [Get Pro Version](https://bplugins.com/products/b-carousel-block/#pricing) 👈
+👉 [Plugin Demo](https://bplugins.com/products/b-carousel-block/#demos) | [Documentation](https://bplugins.com/docs/b-carousel-block/) | [Get Pro Version](https://bplugins.com/products/b-carousel-block/pricing) 👈
 
 
-The B Carousel Block is a powerful and user-friendly Gutenberg plugin designed to enhance your WordPress website's visual appeal. With this plugin, you can effortlessly create beautiful and responsive carousels directly within the Gutenberg editor. Showcase your images in a sleek and dynamic carousel format that captivates your audience.
+The Carousel Block is a powerful and user-friendly Gutenberg plugin designed to enhance your WordPress website's visual appeal. With this plugin, you can effortlessly create beautiful and responsive carousels directly within the Gutenberg editor. Showcase your images in a sleek and dynamic carousel format that captivates your audience.
 
 
 = Features =
@@ -49,8 +49,14 @@ The B Carousel Block is a powerful and user-friendly Gutenberg plugin designed t
 - **Caption**: Show Caption on hover, Set position outside of the image, Change vertical align.
 
 
-= How to use =
-- First, install the B Carousel Block plugin
+### How to use Carousel Block
+Getting started is easy.
+
+https://youtube.com/watch?v=BHxDuVF2M7E
+
+**Step by Step Setup**
+
+- First, install the Carousel Block plugin
 - Add the Carousel block from the block category called "Widgets" in the Gutenberg editor.
 - You can change block settings from the right-side settings sidebar.
 - Enjoy!
@@ -62,49 +68,49 @@ The B Carousel Block is a powerful and user-friendly Gutenberg plugin designed t
 - Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 
-### ⭐ Check out the Parent Plugin of this plugin-
+### Check out the Parent Plugin of this plugin-
 
-🔥 **[B Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
+[**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
 
 
-### ⭐ Check out our other WordPress Plugins-
+### Check out our other WordPress Plugins-
 
-🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player)** – Best audio player plugin for WordPress.
+[**Html5 Video Player**](https://bplugins.com/products/html5-video-player/) – Display videos as single and playlist in multiple skins.
 
-🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player)** – Best video player plugin for WordPress.
+[**PDF Poster**](https://bplugins.com/products/pdf-poster/) – Display/Embed PDF files with different styles.
 
-🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster)** – A fully-featured PDF Viewer Plugin for WordPress.
+[**Html5 Audio Player**](https://bplugins.com/products/html5-audio-player/) – Listen audios with awesome visuals.
 
-🔥 **[Document Embedder](https://bplugins.com/products/document-embedder)** – Best WordPress Document Embedder Plugin.
+[**StreamCast**](https://bplugins.com/products/streamcast-radio-player/) – Customizable radio player with different skins.
 
-🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
+[**3D Viewer**](https://bplugins.com/products/3d-viewer/) – Embed 3D models and 3D products with interaction.
 
-🔥 **[Advanced Post Block](https://bplugins.com/products/advanced-post-block)** – Best Post Display Plugin for WordPress.
+[**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
 
 == Installation ==
 
 = From Gutenberg Editor: =
 1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **B Carousel**
+2. Search For **Carousel**
 3. Click on the **Carousel** to add the block
 
 = Download & Upload: =
-1. Download the **B Carousel Block** plugin (*.zip file*)
+1. Download the **Carousel Block** plugin (*.zip file*)
 2. In your admin area, go to the Plugins menu and click on **Add New**
 3. Click on **Upload Plugin** and choose the **`b-carousel-block.zip`** file and click on **Install Now**
 4. Activate the plugin and Enjoy!
 
 = Manually: =
-1. Download and upload the **B Carousel Block** plugin to the **`/wp-content/plugins/`** directory
+1. Download and upload the **Carousel Block** plugin to the **`/wp-content/plugins/`** directory
 2. Activate the plugin through the Plugins menu in WordPress
 
 
 == Frequently Asked Questions ==
 
-= Is B Carousel Block free? =
+= Is Carousel Block free? =
 
-Yes, B Carousel Block is a free Gutenberg block plugin.
+Yes, Carousel Block is a free Gutenberg block plugin.
 
 = Does it work with any WordPress theme? =
 
@@ -142,13 +148,26 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
-= 1.1.5 - 29 May 25 =
+= 1.2.0 - 26 Jan 2026 =
+* Add Masonry layout
+
+= 1.1.8 - 24 Nov 2025 =
+* Performance Improvement
+
+= 1.1.7 - 2 Nov 2025 =
+* Fix SDK
+
+= 1.1.6 - 31 Oct 2025 =
+* Fix issues
+* Update SDK
+
+= 1.1.5 - 29 May 2025 =
 * Change default images.
 
-= 1.1.4 - 5 May 25 =
+= 1.1.4 - 5 May 2025 =
 * Fix textdomain issue.
 
-= 1.1.3 - 27 Jan 25 =
+= 1.1.3 - 27 Jan 2025 =
 * Update SDK.
 
 = 1.1.2 - 8 Dec 24 =
@@ -187,7 +206,7 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Add height option
 
 = 1.0.1 =
-* Add translate feature
+* Add translate feature.
 
 = 1.0.0 =
 * Initial Release.

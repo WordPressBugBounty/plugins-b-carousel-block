@@ -9,9 +9,14 @@
     "logo carousel",
     "client logo slider"
   ],
+  "version": "1.2.0",
   "textdomain": "carousel-block",
   "attributes": {
     "align": {
+      "type": "string",
+      "default": ""
+    },
+    "layout": {
       "type": "string",
       "default": ""
     },
@@ -111,9 +116,19 @@
           "mobile": 1
         },
         "columnGap": 30,
+        "rows": {
+          "desktop": 3
+        },
+        "rowGap": 5,
+        "rowHeights": [
+          "200px",
+          "240px",
+          "180px"
+        ],
         "isLoop": true,
         "allowTouchMove": false,
         "speed": 1.5,
+        "scrollSpeed": 40,
         "autoplayOptions": {
           "enabled": true,
           "delay": 1.5,
@@ -166,7 +181,7 @@
     },
     "pageColor": {
       "type": "string",
-      "default": "#4527a4"
+      "default": "#146ef5"
     },
     "isPrevNext": {
       "type": "boolean",

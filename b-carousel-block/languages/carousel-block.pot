@@ -1,22 +1,23 @@
-# Copyright (C) 2025 bPlugins
+# Copyright (C) 2026 bPlugins
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: B Carousel Block 1.1.5\n"
+"Project-Id-Version: Carousel Block 1.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/b-carousel-block-pro\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-29T03:14:36+00:00\n"
+"POT-Creation-Date: 2026-01-26T13:41:58+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: carousel-block\n"
 
 #. Plugin Name of the plugin
 #: index.php
-msgid "B Carousel Block"
+#: includes/admin/SubMenu.php:15
+msgid "Carousel Block"
 msgstr ""
 
 #. Description of the plugin
@@ -34,59 +35,576 @@ msgstr ""
 msgid "https://bplugins.com"
 msgstr ""
 
-#: includes/CustomPost.php:27
-#: includes/CustomPost.php:28
-#: includes/pattern.php:15
-msgid "B Carousel"
+#: includes/admin/CPT.php:23
+msgid "Help & Demos - Carousel"
 msgstr ""
 
-#: includes/CustomPost.php:29
-#: includes/CustomPost.php:30
+#: includes/admin/CPT.php:24
+msgid "Help & Demos"
+msgstr ""
+
+#: includes/admin/CPT.php:44
+#: includes/admin/CPT.php:45
+#: includes/Patterns.php:19
+#: build/index.js:1
+msgid "Carousel"
+msgstr ""
+
+#: includes/admin/CPT.php:46
+#: includes/admin/CPT.php:47
 msgid "Add New"
 msgstr ""
 
-#: includes/CustomPost.php:31
+#: includes/admin/CPT.php:48
 msgid "Edit"
 msgstr ""
 
-#: includes/CustomPost.php:32
+#: includes/admin/CPT.php:49
 msgid "New"
 msgstr ""
 
-#: includes/CustomPost.php:33
+#: includes/admin/CPT.php:50
 msgid "View"
 msgstr ""
 
-#: includes/CustomPost.php:34
+#: includes/admin/CPT.php:51
 msgid "Search"
 msgstr ""
 
-#: includes/CustomPost.php:35
+#: includes/admin/CPT.php:52
 msgid "Sorry, we couldn't find the that you are looking for."
 msgstr ""
 
-#: includes/HelpPage.php:11
-msgid "Content Slider - Help"
+#: includes/admin/SubMenu.php:14
+msgid "Carousel Block - bPlugins"
 msgstr ""
 
-#: includes/HelpPage.php:12
-msgid "Help"
+#: build/index.js:1
+msgid "Default"
 msgstr ""
 
-#: includes/UpgradePage.php:11
-msgid "Content Slider - Upgrade"
+#: build/index.js:1
+msgid "Masonry"
 msgstr ""
 
-#: includes/UpgradePage.php:12
-msgid "Upgrade"
+#: build/index.js:1
+msgid "None"
 msgstr ""
 
-#: build/admin-post.js:1
-msgid "Copied Successfully!"
+#: build/index.js:1
+msgid "Link"
 msgstr ""
 
-#: build/admin-post.js:1
-msgid "Copy To Clipboard"
+#: build/index.js:1
+msgid "Lightbox"
+msgstr ""
+
+#: build/index.js:1
+msgid "Auto"
+msgstr ""
+
+#: build/index.js:1
+msgid "Full"
+msgstr ""
+
+#: build/index.js:1
+msgid "Image"
+msgstr ""
+
+#: build/index.js:1
+msgid "Caption"
+msgstr ""
+
+#: build/index.js:1
+msgid "Slide"
+msgstr ""
+
+#: build/index.js:1
+msgid "Fade"
+msgstr ""
+
+#: build/index.js:1
+msgid "Cube"
+msgstr ""
+
+#: build/index.js:1
+msgid "Creative"
+msgstr ""
+
+#: build/index.js:1
+msgid "Coverflow"
+msgstr ""
+
+#: build/index.js:1
+msgid "Flip"
+msgstr ""
+
+#: build/index.js:1
+msgid "Cards"
+msgstr ""
+
+#: build/index.js:1
+msgid "Normal"
+msgstr ""
+
+#: build/index.js:1
+msgid "Hover"
+msgstr ""
+
+#: build/index.js:1
+msgid "On Image"
+msgstr ""
+
+#: build/index.js:1
+msgid "Bellow Image"
+msgstr ""
+
+#: build/index.js:1
+msgid "Top"
+msgstr ""
+
+#: build/index.js:1
+msgid "Center"
+msgstr ""
+
+#: build/index.js:1
+msgid "Bottom"
+msgstr ""
+
+#: build/index.js:1
+msgid "General"
+msgstr ""
+
+#: build/index.js:1
+msgid "Options"
+msgstr ""
+
+#: build/index.js:1
+msgid "Style"
+msgstr ""
+
+#: build/index.js:1
+msgid "Image File:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enter Image URL"
+msgstr ""
+
+#: build/index.js:1
+msgid "Caption:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Click Action"
+msgstr ""
+
+#: build/index.js:1
+msgid "Link:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Carousel Items"
+msgstr ""
+
+#: build/index.js:1
+msgid "Layout"
+msgstr ""
+
+#: build/index.js:1
+msgid "Layout:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Width:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Rows:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Row Gap:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Height:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Columns:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Column Gap:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Width"
+msgstr ""
+
+#: build/index.js:1
+msgid "Display"
+msgstr ""
+
+#: build/index.js:1
+msgid "Hover view will work only if the caption position is on the image."
+msgstr ""
+
+#: build/index.js:1
+msgid "Position"
+msgstr ""
+
+#: build/index.js:1
+msgid "Vertical Align"
+msgstr ""
+
+#: build/index.js:1
+msgid "Change the overlay color from Style -> Caption panel."
+msgstr ""
+
+#: build/index.js:1
+msgid "Text Align:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Slide Link"
+msgstr ""
+
+#: build/index.js:1
+msgid "Open link in new tab?"
+msgstr ""
+
+#: build/index.js:1
+msgid "Link On"
+msgstr ""
+
+#: build/index.js:1
+msgid "Basic"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Loop"
+msgstr ""
+
+#: build/index.js:1
+msgid "Total number of slides must be more then column count"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Touch Move"
+msgstr ""
+
+#: build/index.js:1
+msgid "Speed (s):"
+msgstr ""
+
+#: build/index.js:1
+msgid "Smaller speed will be slide faster"
+msgstr ""
+
+#: build/index.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Autoplay"
+msgstr ""
+
+#: build/index.js:1
+msgid "Autoplay will not work in backend"
+msgstr ""
+
+#: build/index.js:1
+msgid "Autoplay Delay (s):"
+msgstr ""
+
+#: build/index.js:1
+msgid "Smaller delay will be autoplay faster"
+msgstr ""
+
+#: build/index.js:1
+msgid "Disable on Interaction"
+msgstr ""
+
+#: build/index.js:1
+msgid "Pause on Mouse Enter"
+msgstr ""
+
+#: build/index.js:1
+msgid "If 'Disable on Interaction' is also enabled, it will stop autoplay instead of pause"
+msgstr ""
+
+#: build/index.js:1
+msgid "Reverse Direction"
+msgstr ""
+
+#: build/index.js:1
+msgid "Stop on Last Slide"
+msgstr ""
+
+#: build/index.js:1
+msgid "Free Mode"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Free Mode"
+msgstr ""
+
+#: build/index.js:1
+msgid "Smooth Scrolling with dragging the slide"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Touch Move to use Free Mode"
+msgstr ""
+
+#: build/index.js:1
+msgid "Sticky"
+msgstr ""
+
+#: build/index.js:1
+msgid "Effects"
+msgstr ""
+
+#: build/index.js:1
+msgid "Effect:"
+msgstr ""
+
+#: build/index.js:1
+msgid "To work fade, cube, creative, flip & cards effects properly, set single column per view."
+msgstr ""
+
+#: build/index.js:1
+msgid "Some settings may change when effect will be changed."
+msgstr ""
+
+#: build/index.js:1
+msgid "Mousewheel"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Slide on Mousewheel"
+msgstr ""
+
+#: build/index.js:1
+msgid "Pagination"
+msgstr ""
+
+#: build/index.js:1
+msgid "Show Pagination"
+msgstr ""
+
+#: build/index.js:1
+msgid "Show On Tablet"
+msgstr ""
+
+#: build/index.js:1
+msgid "Show On Mobile"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Pagination Clickable"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Pagination Dynamic Bullets"
+msgstr ""
+
+#: build/index.js:1
+msgid "Pagination Border:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Navigation"
+msgstr ""
+
+#: build/index.js:1
+msgid "Show Navigation"
+msgstr ""
+
+#: build/index.js:1
+msgid "Masonry Options"
+msgstr ""
+
+#: build/index.js:1
+msgid "Scroll Speed / Duration (s)"
+msgstr ""
+
+#: build/index.js:1
+msgid "Background:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Padding:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Button Size:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Button Color:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Icon Size:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Icon Color:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Overlay:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Overlay will show only if the caption position is on the image."
+msgstr ""
+
+#: build/index.js:1
+msgid "Carousel in left"
+msgstr ""
+
+#: build/index.js:1
+msgid "Carousel in center"
+msgstr ""
+
+#: build/index.js:1
+msgid "Carousel in right"
+msgstr ""
+
+#: build/index.js:1
+msgid "Masonry Layout: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Display slide items in a masonry-style slider."
+msgstr ""
+
+#: build/index.js:1
+msgid "Image in Lightbox: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Open the slide image in the lightbox."
+msgstr ""
+
+#: build/index.js:1
+msgid "Link on Caption: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Set the slide link on the caption."
+msgstr ""
+
+#: build/index.js:1
+msgid "Touch Move: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Control the slider with touch move."
+msgstr ""
+
+#: build/index.js:1
+msgid "Disable on Interaction: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Disable on Interaction option in autoplay."
+msgstr ""
+
+#: build/index.js:1
+msgid "Pause on Mouse Enter: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Pause on Mouse Enter option in autoplay."
+msgstr ""
+
+#: build/index.js:1
+msgid "Reverse Direction: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Reverse Direction option in autoplay."
+msgstr ""
+
+#: build/index.js:1
+msgid "Stop on Last Slide: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Stop on Last Slide option in autoplay."
+msgstr ""
+
+#: build/index.js:1
+msgid "Free Mode: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Free Mode option on drag slide."
+msgstr ""
+
+#: build/index.js:1
+msgid "Sticky: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Sticky option in free mode."
+msgstr ""
+
+#: build/index.js:1
+msgid "Effects: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Explore more effects such as Cube, Coverflow, Flip, and Cards."
+msgstr ""
+
+#: build/index.js:1
+msgid "Slide on Mousewheel: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Slide on Mousewheel option."
+msgstr ""
+
+#: build/index.js:1
+msgid "Pagination Device: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Show/Hide pagination in different devices(tablet and mobile)."
+msgstr ""
+
+#: build/index.js:1
+msgid "Dynamic Bullets: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Option for pagination dynamic bullets."
+msgstr ""
+
+#: build/index.js:1
+msgid "Navigation Device: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Show/Hide navigation in different devices(tablet and mobile)."
+msgstr ""
+
+#: build/index.js:1
+msgid "Caption: "
+msgstr ""
+
+#: build/index.js:1
+msgid "Show Caption on hover, Set position outside of the image, Change vertical align."
+msgstr ""
+
+#: build/index.js:1
+msgid "Select Layout"
 msgstr ""
 
 #: build/block.json
