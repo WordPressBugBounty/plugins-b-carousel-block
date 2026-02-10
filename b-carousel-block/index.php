@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Carousel Block
  * Description: Create stunning responsive carousels effortlessly.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -16,7 +16,7 @@ if ( !defined( 'ABSPATH' ) ) { exit; }
 if ( function_exists( 'bicb_fs' ) ) {
 	bicb_fs()->set_basename( false, __FILE__ );
 }else{
-	define( 'BICB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && ( 'localhost' === $_SERVER['HTTP_HOST'] || 'plugins.local' === $_SERVER['HTTP_HOST'] ) ? time() : '1.2.0' );
+	define( 'BICB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && ( 'localhost' === $_SERVER['HTTP_HOST'] || 'plugins.local' === $_SERVER['HTTP_HOST'] ) ? time() : '1.2.1' );
 	define( 'BICB_DIR_URL', plugin_dir_url( __FILE__ ) );
 	define( 'BICB_DIR_PATH', plugin_dir_path( __FILE__ ) );
 	define( 'BICB_HAS_PRO', file_exists( BICB_DIR_PATH . 'vendor/freemius/start.php' ) );
