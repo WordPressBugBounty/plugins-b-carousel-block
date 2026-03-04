@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Carousel Block 1.2.1\n"
+"Project-Id-Version: Carousel Block 1.2.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/b-carousel-block\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-02-10T05:21:22+00:00\n"
+"POT-Creation-Date: 2026-03-04T18:04:47+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: carousel-block\n"
@@ -40,6 +40,7 @@ msgid "Help & Demos - Carousel"
 msgstr ""
 
 #: includes/admin/CPT.php:24
+#: index.php:81
 msgid "Help & Demos"
 msgstr ""
 
@@ -76,6 +77,26 @@ msgstr ""
 
 #: includes/admin/SubMenu.php:14
 msgid "Carousel Block - bPlugins"
+msgstr ""
+
+#: build/admin/dashboard.js:1
+msgid "Display slide items in a masonry-style slider."
+msgstr ""
+
+#: build/admin/dashboard.js:1
+msgid "Open the slide image in the lightbox."
+msgstr ""
+
+#: build/admin/dashboard.js:1
+msgid "Set the slide link on the caption."
+msgstr ""
+
+#: build/admin/dashboard.js:1
+msgid "Enable touch move for mobile devices."
+msgstr ""
+
+#: build/admin/dashboard.js:1
+msgid "Access premium features and advanced settings."
 msgstr ""
 
 #: build/block.json
