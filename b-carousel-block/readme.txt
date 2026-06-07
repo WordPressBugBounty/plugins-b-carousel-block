@@ -2,10 +2,10 @@
 Contributors: bplugins, abuhayat, charlescormier, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, image slider, logo carousel, client logo slider, Gutenberg block
-Requires at least: 6.5+
-Tested up to: 6.9
-Stable tag: 1.2.2
-Requires PHP: 7.1
+Requires at least: 6.5
+Tested up to: 7.0
+Stable tag: 1.2.3
+Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -148,6 +148,10 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+= 1.2.3 - 07 Jun 2026 =
+* **Update:** SDK
+* **Update:** Performance Improvement
+
 = 1.2.2 - 04 Mar 2026 =
 * **Update:** Admin Dashboard - Improved UI with better navigation and clearer feature organization.
 
@@ -209,10 +213,40 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Implement autoplay delay feature
 
 = 1.0.2 =
-* Add height option
+* Add height option.
 
 = 1.0.1 =
 * Add translate feature.
 
 = 1.0.0 =
 * Initial Release.
+
+
+== Source Code ==
+
+You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
+[**Carousel Block on GitHub**](https://github.com/bPlugins/b-carousel-block-wp)
+
+
+== Third-Party Libraries ==
+
+This plugin bundles the following third-party JavaScript/PHP libraries.
+
+= Swiper =
+* **Source:** https://swiperjs.com/
+* **GitHub:** https://github.com/nolimits4web/swiper
+* **License:** MIT – [https://github.com/nolimits4web/swiper/blob/master/LICENSE](https://github.com/nolimits4web/swiper/blob/master/LICENSE)
+* **Purpose:** Modern touch slider used for Slider and News Ticker components.
+
+= Freemius Lite SDK =
+* **Source:** [https://bplugins.com/](https://bplugins.com/)
+* **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
+* **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
+* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made

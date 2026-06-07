@@ -3,20 +3,37 @@ namespace BICB;
 
 if ( !defined( 'ABSPATH' ) ) { exit; }
 
+/**
+ * Patterns class.
+ *
+ * Registers block patterns and pattern categories for the Carousel block.
+ *
+ * @since 1.0.6
+ * @package BICB
+ */
 class Patterns{
-	function __construct(){
+	/**
+	 * Constructor.
+	 *
+	 * Hooks pattern registration to the init action.
+	 */
+	public function __construct(){
 		add_action( 'init', [$this, 'onInit'] );
 	}
 
-	function onInit(){
+	/**
+	 * Registers block pattern category and individual patterns from JSON.
+	 *
+	 * @since 1.0.6
+	 *
+	 * @return void
+	 */
+	public function onInit(){
 		$patterns = wp_json_file_decode( __DIR__ . '/patterns.json', [ 'associative' => true ] );
-		$patterns = bicbIsPremium() ? $patterns : array_filter( $patterns, function( $item ) {
-			return !isset($item['pro']) || !$item['pro'];
-		} );
 
 		// Register Pattern Category
 		if ( function_exists( 'register_block_pattern_category' ) ) {
-			register_block_pattern_category( 'bicbPattern', [ 'label' => __( 'Carousel', 'carousel-block' ) ] );
+			register_block_pattern_category( 'bicbPattern', [ 'label' => __( 'Carousel', 'b-carousel-block' ) ] );
 		}
 
 		// Register Pattern

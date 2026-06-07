@@ -1,16 +1,17 @@
 {
-  "apiVersion": 2,
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
   "name": "bicb/carousel",
   "title": "Carousel",
   "description": " Create stunning responsive carousels effortlessly.",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "category": "widgets",
   "keywords": [
     "image slider",
     "logo carousel",
     "client logo slider"
   ],
-  "textdomain": "carousel-block",
+  "textdomain": "b-carousel-block",
   "attributes": {
     "align": {
       "type": "string",

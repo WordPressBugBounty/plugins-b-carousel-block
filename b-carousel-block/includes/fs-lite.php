@@ -2,6 +2,13 @@
 if ( !defined( 'ABSPATH' ) ) { exit; }
 
 if ( ! function_exists( 'bicb_fs' ) ) {
+	/**
+	 * Initializes and returns the Freemius Lite SDK instance.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return \Freemius The Freemius SDK instance.
+	 */
 	function bicb_fs() {
 		global $bicb_fs;
 
