@@ -1,77 +1,83 @@
-=== Carousel Block – Responsive Image and Content Carousel ===
+=== Carousel Block – Showcase Images in Elegant Sliding Displays ===
 Contributors: bplugins, abuhayat, charlescormier, freemius
-Donate link: https://www.buymeacoffee.com/abuhayat
-Tags: block, image slider, logo carousel, client logo slider, Gutenberg block
-Requires at least: 6.5
-Tested up to: 7.0
+Tags: block, image slider, logo carousel, client logo slider, gutenberg block
+Tested up to: 7.1
 Stable tag: 1.2.3
 Requires PHP: 7.4
+Requires at least: 6.5
+Donate link: https://www.buymeacoffee.com/abuhayat
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Create stunning carousels effortlessly with the Carousel Block. Showcase your images in an elegant carousel directly within the Gutenberg editor.
+Create responsive image and content carousels in Gutenberg. Captions, autoplay, effects, navigation – build elegant sliders with no code.
 
 == Description ==
 
-👉 [Plugin Demo](https://bplugins.com/products/b-carousel-block/#demos) | [Documentation](https://bplugins.com/docs/b-carousel-block/) | [Get Pro Version](https://bplugins.com/products/b-carousel-block/pricing) 👈
+**Turn static image lists into elegant, swipeable carousels your visitors love to browse – right inside the Gutenberg editor, no code required.**
 
+[**Plugin Demo**](https://bplugins.com/products/b-carousel-block/#demos) | [**Documentation**](https://bplugins.com/docs/b-carousel-block/) | [**Get Pro Version**](https://bplugins.com/products/b-carousel-block/pricing)
 
-The Carousel Block is a powerful and user-friendly Gutenberg plugin designed to enhance your WordPress website's visual appeal. With this plugin, you can effortlessly create beautiful and responsive carousels directly within the Gutenberg editor. Showcase your images in a sleek and dynamic carousel format that captivates your audience.
+### Why Carousel Block?
 
+Rows of static images take up space and get skipped. **Carousel Block** turns them into a sleek, dynamic slider that captivates your audience – add the block, drop in your images, and publish a beautiful, responsive carousel in minutes.
 
-= Features =
-- **Reorder Slides**: Rearrange the slides or images that do not need to be deleted and recreated.
-- **Caption**: Add a caption for each slide image.
-- **Click Action**: slide can be linkable with click action.
-- **Responsive**: Customize width, height, and column number for different devices.
-- **Caption Style**: Customize text alignment, typography, overlay colors, colors(text and background), and padding for the caption.
-- **Slide Link**: Choose whether the link should open in the same tab or a new tab.
-- **Options**: Customize loop, speed, autoplay, autoplay delay, pagination, and navigation options for the slider with more customization.
-- **Effects**: Explore Slide, Fade, and Creative effects.
-- **Slider Style**: Set background and padding for the slider.
+https://youtube.com/watch?v=LPbxSxo8eP8
 
+Everything is configured visually from the block sidebar: reorder slides with drag and drop, add captions and links, fine-tune autoplay and navigation, and choose from Slide, Fade, and Creative transition effects. Responsive controls let you set width, height, and column count separately for desktop, tablet, and mobile, so your carousel looks right on every device.
 
-= Pro Features =
-- **Image in Lightbox**: Open the slide image in the lightbox.
-- **Link on Caption**: Set the slide link on the caption.
-- **Touch Move**: Control the slider with touch move.
-- **Disable on Interaction**: Disable on Interaction option in autoplay.
-- **Pause on Mouse Enter**: Pause on Mouse Enter option in autoplay.
-- **Reverse Direction**: Reverse Direction option in autoplay.
-- **Stop on Last Slide**: Stop on Last Slide option in autoplay.
-- **Free Mode**: Free Mode option on drag slide.
-- **Sticky**: Sticky option in free mode.
-- **Effects**: Explore more effects such as Cube, Coverflow, Flip, and Cards.
-- **Slide on Mousewheel**: Slide on Mousewheel option.
-- **Pagination Device**: Show/Hide pagination in different devices(tablet and mobile).
-- **Dynamic Bullets**: Option for pagination dynamic bullets.
-- **Navigation Device**: Show/Hide navigation in different devices(tablet and mobile).
-- **Caption**: Show Caption on hover, Set position outside of the image, Change vertical align.
+### Free Features
 
+- **Reorder Slides:** Rearrange slides or images without deleting and recreating them.
+- **Captions:** Add a caption to each slide image.
+- **Click Action:** Make any slide linkable with a click action.
+- **Responsive Controls:** Customize width, height, and column number for different devices.
+- **Caption Styling:** Customize text alignment, typography, overlay colors, text and background colors, and padding.
+- **Slide Link Target:** Choose whether links open in the same tab or a new tab.
+- **Slider Options:** Control loop, speed, autoplay, autoplay delay, pagination, and navigation.
+- **Effects:** Explore Slide, Fade, and Creative transition effects.
+- **Slider Style:** Set background and padding for the slider.
 
-### How to use Carousel Block
-Getting started is easy.
+### Pro Version
+
+Need more control? [**Carousel Block Pro**](https://bplugins.com/products/b-carousel-block/pricing) unlocks advanced interactions, effects, and per-device display options.
+
+**Pro features include:**
+
+- **Image in Lightbox:** Open the slide image in a lightbox.
+- **Link on Caption:** Set the slide link on the caption.
+- **Touch Move:** Control the slider with touch gestures.
+- **Advanced Autoplay:** Disable on interaction, pause on mouse enter, reverse direction, and stop on last slide.
+- **Free Mode:** Drag slides freely, with an optional sticky behavior.
+- **More Effects:** Cube, Coverflow, Flip, and Cards transitions.
+- **Mousewheel Sliding:** Move through slides with the mousewheel.
+- **Per-Device Pagination & Navigation:** Show or hide pagination and navigation on tablet and mobile.
+- **Dynamic Bullets:** Enable dynamic pagination bullets.
+- **Advanced Captions:** Show captions on hover, position them outside the image, and change vertical alignment.
+
+### How to Use Carousel Block
 
 https://youtube.com/watch?v=BHxDuVF2M7E
 
-**Step by Step Setup**
+1. Install and activate the **Carousel Block** plugin.
+2. In the Gutenberg editor, add the **Carousel** block from the "Widgets" block category.
+3. Add your images and arrange the slides.
+4. Adjust settings from the right-side settings sidebar.
+5. Publish – your carousel is live!
 
-- First, install the Carousel Block plugin
-- Add the Carousel block from the block category called "Widgets" in the Gutenberg editor.
-- You can change block settings from the right-side settings sidebar.
-- Enjoy!
+For installation help, click on the Installation tab.
 
-* For installation help click on Installation Tab.
+### Use Cases
 
+- **Image Galleries:** Present photo collections in a compact, swipeable format.
+- **Client Logo Sliders:** Showcase partner and client logos in a rotating strip.
+- **Portfolios:** Highlight projects and creative work slide by slide.
+- **Promotions:** Feature linked banners for products, offers, or landing pages.
 
-= Feedback =
-- Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
-
+Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback').
 
 ### Check out the Parent Plugin of this plugin-
 
 [**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
-
 
 ### Check out our other WordPress Plugins-
 
@@ -87,47 +93,55 @@ https://youtube.com/watch?v=BHxDuVF2M7E
 
 [**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
-
 == Installation ==
 
-= From Gutenberg Editor: =
-1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **Carousel**
-3. Click on the **Carousel** to add the block
+**From your WordPress dashboard (recommended):**
 
-= Download & Upload: =
-1. Download the **Carousel Block** plugin (*.zip file*)
-2. In your admin area, go to the Plugins menu and click on **Add New**
-3. Click on **Upload Plugin** and choose the **`b-carousel-block.zip`** file and click on **Install Now**
-4. Activate the plugin and Enjoy!
+1. Go to **Plugins → Add New**.
+2. Search for **"Carousel Block"**.
+3. Click **Install Now**, then **Activate**.
+4. In the Gutenberg editor, add the **Carousel** block to any post or page.
 
-= Manually: =
-1. Download and upload the **Carousel Block** plugin to the **`/wp-content/plugins/`** directory
-2. Activate the plugin through the Plugins menu in WordPress
+**Manual installation:**
 
+1. Download the **Carousel Block** plugin (*.zip file*).
+2. In your admin area, go to **Plugins → Add New** and click **Upload Plugin**.
+3. Choose the **`b-carousel-block.zip`** file and click **Install Now**.
+4. Activate the plugin through the **Plugins** menu in WordPress.
 
 == Frequently Asked Questions ==
 
 = Is Carousel Block free? =
 
-Yes, Carousel Block is a free Gutenberg block plugin.
+Yes, Carousel Block is a free Gutenberg block plugin. A Pro version with additional effects and options is available.
 
 = Does it work with any WordPress theme? =
 
-Yes, it will work with any standard WordPress theme.
+Yes, it works with any standard WordPress theme.
 
 = Can I change block settings? =
 
-Yes, you can change block settings from the Gutenberg block editor's right sidebar.
+Yes, you can change all block settings from the Gutenberg editor's right-side sidebar.
 
-= How many times can I reuse a block? =
+= How many times can I reuse the block? =
 
-You can use unlimited times as you want.
+You can use the block an unlimited number of times across your site.
+
+= Is the carousel responsive on mobile devices? =
+
+Yes. You can customize width, height, and the number of columns separately for different devices, so the carousel adapts to desktop, tablet, and mobile screens.
+
+= Can I add links and captions to slides? =
+
+Yes. Each slide can have its own caption and a click action link, and you can choose whether links open in the same tab or a new tab. The Pro version can also place the link on the caption itself.
+
+= Which transition effects are available? =
+
+The free version includes Slide, Fade, and Creative effects. The Pro version adds Cube, Coverflow, Flip, and Cards effects.
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/b-carousel-block/)
-
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/b-carousel-block/).
 
 == Screenshots ==
 
@@ -145,6 +159,33 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 12. Flip Effect
 13. Cards Effect
 
+== Source Code ==
+
+You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
+[**Carousel Block on GitHub**](https://github.com/bPlugins/b-carousel-block-wp)
+
+== Third-Party Libraries ==
+
+This plugin bundles the following third-party JavaScript/PHP libraries.
+
+= Swiper =
+* **Source:** https://swiperjs.com/
+* **GitHub:** https://github.com/nolimits4web/swiper
+* **License:** MIT – [https://github.com/nolimits4web/swiper/blob/master/LICENSE](https://github.com/nolimits4web/swiper/blob/master/LICENSE)
+* **Purpose:** Modern touch slider used for Slider and News Ticker components.
+
+= Freemius Lite SDK =
+* **Source:** [https://bplugins.com/](https://bplugins.com/)
+* **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
+* **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
+* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
 
 == Changelog ==
 
@@ -220,33 +261,3 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 = 1.0.0 =
 * Initial Release.
-
-
-== Source Code ==
-
-You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
-[**Carousel Block on GitHub**](https://github.com/bPlugins/b-carousel-block-wp)
-
-
-== Third-Party Libraries ==
-
-This plugin bundles the following third-party JavaScript/PHP libraries.
-
-= Swiper =
-* **Source:** https://swiperjs.com/
-* **GitHub:** https://github.com/nolimits4web/swiper
-* **License:** MIT – [https://github.com/nolimits4web/swiper/blob/master/LICENSE](https://github.com/nolimits4web/swiper/blob/master/LICENSE)
-* **Purpose:** Modern touch slider used for Slider and News Ticker components.
-
-= Freemius Lite SDK =
-* **Source:** [https://bplugins.com/](https://bplugins.com/)
-* **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
-* **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
-* **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
-* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
-
-= bpl-tools =
-* Source / GitHub: https://github.com/bPlugins/bpl-tools
-* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
-* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
-* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
